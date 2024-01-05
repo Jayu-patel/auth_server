@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const link = preocess.env.LINK
+const link = process.env.LINK
 mongoose.connect(link)
 
 const userSchema = new mongoose.Schema({
